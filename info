@@ -1,0 +1,10 @@
+while True:
+  name = input("Please enter your name: ")
+  age = input("Please enter your age: ")
+  city = input("In which city do you live in?: ")
+
+  if name == "" or age == "" or city == "":
+    print ("Sorry your input is wrong, Please correct and Try again.")
+
+  else:
+    print("My Name is %s. I live in %s And I am  %s years old." % (name, city, age))
